@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta property="og:title" content="" />
+<meta property="og:type" content="website" /> 
+<meta property="og:url" content="" />
+<meta property="og:image" content="" />
+
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
+<link rel="stylesheet" media="all" href="../css/vegas.min.css" />
+<link rel="stylesheet" media="all" href="../css/style.css" />
+
+<%@page import="de.hwg_lu.bwi520.beans.AccountBean"%>
+<%@page import="de.hwg_lu.bwi520.beans.MessageBean"%>
+
+<title>1994 Eatery</title>
+
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/vegas.min.js"></script>
+<script src="../js/style.js"></script>
+	
+
+
+    
+</head>
+<body>
+    <div class="head">
+    <div class="navblock">  
+<div class="container">
+<div class="row">
+    <div class="col span-12 header">
+        <nav>
+          <div id="open"></div>
+          <div id="close"></div>   
+            <div id="navi">
+        <ul>
+          <li><a href="startseite.html">Startseite</a></li>
+          <li><a href="startseite.html#1">&Uuml;ber Uns</a></li>
+            <li><a href="startseite.html#2">Nachricht</a></li>
+            <li><a href="startseite.html#3">Speisekarte</a></li>
+            <li><a href="startseite.html#4">Info&amp;Reservierung</a></li>
+        
+         </ul>
+         
+         
+             </div>
+             
+        </nav>
+        </div>
+    </div>
+    </div></div>
+    <div>
+            <h1>1994 EATERY<br>Asiatische Küche & mehr im Herz von Schwetzingen<br><a href="#2" class="button">Speisekarte</a></h1>
+        </div></div>
+      <main>
+        <section id="1" class="catchback">
+          <div class="catch">
+        <h2>Frische asiatische K&uuml;che &amp; mehr</h2>
+        <p>1994 EATERY wurde von einem leidenschaftlichen Team voller Foodies gegründet, die gerne miteinander essen, trinken und dabei neue fantastische Gerichte zusammenstellen.<br><br>
+        Unsere Liebe führte zur Eröffnung dieser Restaurant, ein Ort an dem sich Menschen aus ganz Ort treffen können und hervorragende Speisen in angenehmer Atmosphäre genießen können.
+        <br><br>Unsere Küche verbindet viele asiatischen Kocharten mit frischen regionalen Zutaten. Auf unserer Speisekarte treffen Tradition und Moderne zu einem exklusiven Geschmackserlebnis aufeinander. Himmlisch leicht oder herzhaft kräftig, klassisch oder experimentell, in Ruhe oder in großer Runde – genießen Sie in unserem stilvollen Ambiente auf Ihre ganz individuelle Art. Mehr zur Karte und den Speisen berät euch unser geschultes Servicepersonal sehr gerne.</p>
+      </div>
+        </section>
+
+<section id="2" class="back-color">
+    <div class="news">
+      <h2>Nachricht</h2>
+      <ul class="news-list">
+        <li class="item">
+            <a href="startseite.html#4">
+                <p class="date">2023/08/19</p>
+                <p class="title">Unsere neue Öffnungszeiten werden veröffentlicht.</p>
+            </a>
+        </li>
+        <li class="item">
+            <a href="startseite.html#3">
+                <p class="date">2023/08/19</p>
+                <p class="title">Unsere Speisekarte wird erneut!</p>
+            </a>
+        </li>
+        <li class="item">
+            <a href="startseite.html">
+                <p class="date">2023/08/18</p>
+                <p class="title">Unsere neue Webseite wird geöffnet!</p>
+            </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="3" class="menuback">
+    <h2>Speisekarte</h2>
+  </section>
+  <section>
+<div class="container center">
+<div class="row">
+    <div class="col span-4">
+      <div class="hoverbox">
+		<img src="../img/NEMHANOI.jpg" alt="NEMHANOI" class="hoverbox-img">
+  </div>
+		<h3>NEM HA NOI</h3>
+		<p>Hausgemachte Frühlingsrolle mit
+<br>Gemüse und Hackfleisch<br>
+<strong>5,90€</strong></p>
+    </div>
+    <div class="col span-4">
+      <div class="hoverbox">
+		<img src="../img/PHOHANOI.jpg" alt="PHOHANOI" class="hoverbox-img">
+  </div>
+		<h3>PHO HA NOI</h3>
+		<p>Traditionell vietnamesische Reisbandnudelsuppe,<br>
+serviert mit Sojasprossen und<br>
+Kräutern. Wahlweise mit:<br>
+<strong>a) Seidentofu 11,90€</strong><br>
+<strong>b) Hühnerfleisch 12,90€</strong><br>
+und weiter</p>
+    </div>
+    <div class="col span-4">
+      <div class="hoverbox">
+		<img src="../img/TUNATERIYAKI.jpg" alt="TUNATERIYAKI" class="hoverbox-img">
+  </div>
+		<h3>TUNA TERIYAKI</h3>
+		<p>Gelbflossenthunfisch gegrillt (medium),<br>
+Zuckererbsen, Chinakohl, Cherrytomaten,<br>
+Champignons, Zwiebel, Sesam, Teriyaki Sauce<br>
+<strong>25,00€</strong></p>
+    </div>
+    </div> 
+    <div class="row">
+      <div class="col span-12 span-4-md">
+        <div class="hoverbox">
+      <img src="../img/SASHIMI.jpg" alt="SASHIMI" class="hoverbox-img">
+      </div>
+      <h3>SASHIMI DELUXE 1994</h3>
+      <p>Scottland Bio
+Lachs (3x),
+Yellowfin Tuna (3x),<br>
+Jakobsmuscheln (2x)
+und Garnelen (2x)<br>
+<strong>24,00€</strong></p>
+      </div>
+      <div class="col span-6 span-4-md">
+        <div class="hoverbox">
+      <img src="../img/GYOZA.jpg" alt="GYOZA" class="hoverbox-img">
+    </div>
+      <h3>GYOZA</h3>
+      <p>4 Stück frittierte Teigtaschen<br>
+mit Hähnchen Füllung<br>
+<strong>5,50€</strong></p>
+      </div>
+      <div class="col span-6 span-4-md">
+        <div class="hoverbox">
+      <img src="../img/GREENBEANS.jpg" alt="GREENBEANS" class="hoverbox-img">
+    </div>
+      <h3>GREEN BEANS</h3>
+      <p>Junge Sojabohnen serviert<br>
+mit Meersalz<br>
+<strong>5,50€</strong></p>
+      </div>
+      </div></div>
+  <div>
+</div>
+<div class="row">
+      <div class="col span-12 span-4-md">
+        
+      <h3></h3>
+      <p></p>
+      </div>
+      <div class="col span-6 span-4-md">
+        <div class="hoverbox">
+        <a href="../pdf/speisekarte.pdf">
+        <img src="../img/MENU.jpg" alt="menu">
+         </a>
+    </div>
+      <a href="../pdf/speisekarte.pdf" style="font-size: large;">Weitere Menü ist here</a>
+      <p></p>
+      </div>
+      <div class="col span-6 span-4-md">
+        
+      <h3></h3>
+      <p></p>
+      </div>
+      </div></div>
+  <div>
+</div>
+</section>
+		
+<section id="4" class="contactback">
+  <h2>Info&amp;Reservierung</h2>
+</section>
+<section class="back-color">
+  <div class="container">
+  <div class="row gmap">
+    <div class="col span-5">
+      <h3>1994 EATERY</h3>
+      <p><strong>Adress:</strong><br>
+      		Friedrich Str. 6
+      <br>68723 Schwetzingen</p>
+      <p><strong>Telefon:</strong> 06202 4092957
+      <p><strong>＜&Ouml;ffnungszeiten＞</strong><br>
+      Dienstag – Sonntag:<br>
+11.30 – 14.30 Uhr<br>
+17.00 – 22.00 Uhr<br><br>
+Montag:<br>
+Ruhetag<br>
+      </p>
+    </div>
+      <div class="col span-7">
+    <!-- GoogleMap -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162.33241867189201!2d8.574419871912609!3d49.38396310671306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797c7f4f18aa025%3A0x15e900a0edccf271!2s1994%20Eatery%20Asian%20Cuisine!5e0!3m2!1sja!2sjp!4v1692151579367!5m2!1sja!2sjp" 
+    		width="100%" 
+    		height="350" 
+    		style="border:0;" 
+    		allowfullscreen></iframe>
+    <!-- /GoogleMap -->
+      </div>
+      </div>	
+    </div>
+    <jsp:useBean id="myAccount" class="de.hwg_lu.bwi520.beans.AccountBean" scope="session" />
+	<jsp:useBean id="myMessage" class="de.hwg_lu.bwi520.beans.MessageBean" scope="session" />
+	<jsp:getProperty name="message" property="messageHtml" />
+	
+    <div class="container">
+      <div class="row">
+        <div class="col span-12">
+          <h3 class="stripe">Reservierung</h3>
+          <p>Um eine Buchung vorzunehmen, füllen Sie bitte dieses Formular aus und schicken es ab.</p>
+          <p><small></small></p>
+       <form method="get" action="./ReserviertAppl.jsp">
+      <table class="table full-width">
+        <tbody>
+          <tr>
+            <th><label for="name">Name</label></th>
+            <td><input class="full-width" type="text" name="Name" placeholder="Name" required
+            		value = "<jsp:getProperty name='user' property='name'" >
+            </td>
+          </tr>
+        <tr>
+            <th><label for="email">E-Mail</label></th>
+            <td><input class="full-width" type="email" name="Email" placeholder="E-Mail" required
+            		value = "<jsp:getProperty name='user' property='email'" >
+            </td>
+          </tr>
+          <tr>
+            <th><label for="tel">Telefonnummer</label></th>
+            <td><input class="full-width" type="tel" name="Telefonnummer" placeholder="Telefonnummer" required
+            		value = "<jsp:getProperty name='user' property='telefonNummer'" >
+            </td>
+          </tr>
+          <tr>
+            <th><label for="date">Plandate</label></th>
+            <td><input  class="full-width" type="date" name="Plandate" required 
+            		value = "<jsp:getProperty name='user' property='planDate'" >
+            </td>
+          </tr>
+          <tr>
+            <th><label for="anzahl">Anzahl der Personen</label></th>
+            <td><input class="full-width"  name="Anzahl" placeholder="Anzahl der Personen" required type="number" id="number_button" min="1" max="100"
+            		value = "<jsp:getProperty name='user' property='anzahl'" >
+            </td>
+          </tr>
+          <tr>
+            <th><label for="exampleMessage">Sonstige Anmerkungen</label></th>
+            <td><textarea class="full-width textarea" name="Sonstige Anmerkungen" placeholder="Sonstige Anmerkungen"
+              		value = "<jsp:getProperty name='user' property='sonstigeAnmerkungen'" >
+             	</textarea>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="center"><input class="button" name="btnReserve" type="submit" value="Reservierung"></p>
+      </form>	
+        </div>
+        </div>
+        </div>
+</section>
+</main>
+<footer>
+<ul class="footermenu">
+           <li><a href="startseite.html">Startseite</a></li>
+          <li><a href="startseite.html#1">&Uuml;ber Uns</a></li>
+            <li><a href="startseite.html#2">Nachricht</a></li>
+            <li><a href="startseite.html#3">Speisekarte</a></li>
+            <li><a href="startseite.html#4">Info&amp;Reservierung</a></li>
+            <li><a href="../html/impressum.html">Impressum</a></li>
+            
+</ul>
+<ul class="snsicon">
+  <li><a href="#" target="_blank" rel="noopener"><img src="../img/x-icon.png" alt="X ist Hier"></a></li>
+  <li><a href="#" target="_blank" rel="noopener"><img src="../img/insta-icon.png" alt="Instagram ist hier"></a></li>
+  <li><a href="#" target="_blank" rel="noopener"><img src="../img/facebook-icon.png" alt="Facebook ist hier"></a></li>
+</ul>
+  
+        <a id="pagetop" href="#"></a>
+      </footer>
+</body>
+</html>
